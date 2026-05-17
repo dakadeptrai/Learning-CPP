@@ -1,0 +1,79 @@
+# ================= Build Directories =================
+# Ignore common build output folders
+/build/
+/bin/
+/out/
+/cmake-build-*/
+/devel/
+/install/
+
+# ================= Compiled Files =================
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Static libraries
+*.a
+*.lib
+*.lai
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ================= CMake Specific =================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# ================= IDE Specific =================
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.aps
+*.pdb
+*.obj
+*.idb
+*.sdf
+*.sln
+*.vcxproj.filters
+*.vcxproj.user
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Qt Creator
+*.pro.user*
+
+# ================= Temporary / OS Files =================
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
